@@ -1,6 +1,5 @@
-# StegOnline
-[![Known Vulnerabilities](https://snyk.io/test/github/Ge0rg3/StegOnline/badge.svg)](https://snyk.io/test/github/Ge0rg3/StegOnline)
-![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-3.png, "WTFPL")
+# Steg
+
 
 A web-based, enhanced and open-source port of StegSolve. Upload any image file, and the relevant options will be displayed.
 View a live demo at [http://stegonline.georgeom.net/](http://stegonline.georgeom.net/).
@@ -14,16 +13,6 @@ View a live demo at [http://stegonline.georgeom.net/](http://stegonline.georgeom
 * Browse through image colour palette (if exists)
 * Built as an Angular7 SPA, and no data is stored/transferred.
 
-## Future Plans
-* Max filesize warning to stop tab crashes on massive files
-* Gray Bits feature
-* An [Autostereogram](https://en.wikipedia.org/wiki/Autostereogram) solver (see [here](https://www.cs.bgu.ac.il/~ben-shahar/Teaching/Computational-Vision/StudentProjects/ICBV131/ICBV-2013-1-KatyaGroisman/FinalProjectReport.pdf))
-* Automated LSB Detection (via entropy and filetype detection, on common LSB paths)
-* Add support for other [PNG types](http://www.libpng.org/pub/png/book/chapter08.html#png.ch08.div.5) (at the moment we only support RGB, RGBA and bitmap) 
-* Better automated filetype regex / More filetypes recognized in the [IdentifyFileTypeService](https://github.com/Ge0rg3/StegOnline/blob/master/src/app/common-services/identify-file-type.service.ts) service
-* Better strings regex (see [current](https://github.com/Ge0rg3/StegOnline/blob/master/src/app/imagemenu/strings-panel/strings-panel.component.ts#L19) code)
-* More steps inside the [CTF Checklist page](https://github.com/Ge0rg3/StegOnline/blob/master/src/app/checklist/checklist.component.html)
-* Randomize colour palette for regular PNGs (not just type 3)
 
 ## Installation
 #### Dev Environment
